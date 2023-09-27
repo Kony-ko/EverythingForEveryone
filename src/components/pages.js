@@ -7,6 +7,7 @@ import { ProductDetails } from './products/product-details';
 export const Pages = () => {
   return (
     <div className='page__section'>
+      
       <section>
         <Routes>
             <Route path='/' exact element={<Home/>} />
